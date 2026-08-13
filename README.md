@@ -18,15 +18,18 @@ This repository contains the numerical implementation, post-processing scripts, 
 
 ```text
 ├── data/
-│   ├── DCB_normalized_curves.csv    # Normalized experimental data for Mode I (DCB)
-│   └── ENF_normalized_curves.csv    # Normalized experimental data for Mode II (ENF)
+│   ├── DCB/
+│   │   ├── DCB_test_normalized_1.csv    # Normalized experimental curve (Mode I - DCB)
+│   │   └── ...                          # Additional DCB test curves
+│   └── ENF/
+│       ├── ENF_test_normalized_1.csv    # Normalized experimental curve (Mode II - ENF)
+│       └── ...                          # Additional ENF test curves
 ├── src/
-│   ├── random_fields.py             # Stationary Gaussian random field generator
-│   └── abc_knn.py                   # ABC-kNN Bayesian inference framework
+│   ├── random_fields.py                 # Stationary Gaussian random field generator
+│   └── abc_knn.py                       # ABC-kNN Bayesian inference framework
 ├── scripts/
-│   ├── reproduce_sensitivity.py     # Sensitivity analysis scripts
-│   ├── reproduce_bayes_dcb.py       # ABC-kNN parameter identification for Mode I
-│   └── reproduce_figures.py         # Plotting scripts to regenerate paper figures
-├── requirements.txt                 # Python dependencies
-├── LICENSE                          # License file
-└── README.md                        # Project documentation
+│   ├── plot_marginal_posteriors.py      # Plots 1D marginal posterior distributions
+│   └── plot_posterior_correlation.py    # Plots 5x5 posterior cross-correlation matrix
+├── requirements.txt                     # Python dependencies
+├── LICENSE                              # MIT License file
+└── README.md                            # Project documentation
