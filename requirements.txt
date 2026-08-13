@@ -3,4 +3,5 @@ numpy
 openturns
 pandas
 scipy
+scikit-learn
 seaborn
