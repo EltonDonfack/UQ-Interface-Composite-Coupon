@@ -3,7 +3,8 @@
 This repository contains the numerical implementation, post-processing scripts, and normalized experimental datasets supporting the research paper:
 
 > **"Stochastic Modeling of Composite Interfaces: Sensitivity to Spatial Correlation and Bayesian Identification from Standard Fracture Tests"**  
-> Published in *Integrating Materials and Manufacturing Innovation* (IMMI), Topical Collection *"Uncertainty Quantification for Decision Support in ICME"*.
+> Published in *Integrating Materials and Manufacturing Innovation* (IMMI), Topical Collection *"Uncertainty Quantification for Decision Support in ICME"*.  
+> **Preprint:** [arXiv:2606.13019](https://arxiv.org/abs/2606.13019)
 
 ## Authors
 * **Elton Donfack-Siewe** (Airbus Operations SAS / ONERA)
