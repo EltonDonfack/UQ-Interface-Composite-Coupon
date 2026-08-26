@@ -19,19 +19,6 @@ This repository contains the numerical implementation, post-processing scripts, 
 ## 📁 Repository Structure
 
 ```text
-├── data/
-│   ├── DCB/
-│   │   ├── DCB_test_normalized_1.csv    # Normalized experimental curve (Mode I - DCB)
-│   │   ├── DCB_test_normalized_2.csv    # Normalized experimental curve (Mode I - DCB)
-│   │   ├── DCB_test_normalized_3.csv    # Normalized experimental curve (Mode I - DCB)
-│   │   ├── DCB_test_normalized_4.csv    # Normalized experimental curve (Mode I - DCB)
-│   │   └── DCB_test_normalized_5.csv    # Normalized experimental curve (Mode I - DCB)
-│   └── ENF/
-│       ├── ENF_test_normalized_1.csv    # Normalized experimental curve (Mode II - ENF)
-│       ├── ENF_test_normalized_2.csv    # Normalized experimental curve (Mode II - ENF)
-│       ├── ENF_test_normalized_3.csv    # Normalized experimental curve (Mode II - ENF)
-│       ├── ENF_test_normalized_4.csv    # Normalized experimental curve (Mode II - ENF)
-│       └── ENF_test_normalized_5.csv    # Normalized experimental curve (Mode II - ENF)
 ├── src/
 │   ├── random_fields.py                 # Stationary Gaussian random field generator
 │   └── abc_knn.py                       # ABC-kNN Bayesian inference framework
