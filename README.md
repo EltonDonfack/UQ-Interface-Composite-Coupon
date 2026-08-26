@@ -1,6 +1,6 @@
 # Stochastic Modeling of Composite Interfaces
 
-This repository contains the numerical implementation, post-processing scripts, and normalized experimental datasets supporting the research paper:
+This repository contains the numerical implementation and post-processing scripts supporting the research paper:
 
 > **"Stochastic Modeling of Composite Interfaces: Sensitivity to Spatial Correlation and Bayesian Identification from Standard Fracture Tests"**  
 > Published in *Integrating Materials and Manufacturing Innovation* (IMMI), Topical Collection *"Uncertainty Quantification for Decision Support in ICME"*.  
